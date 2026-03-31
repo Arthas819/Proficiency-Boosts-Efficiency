@@ -2,7 +2,7 @@ This library is an open source project for our submitted paper ***Proficiency Bo
 
 The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
 
-We also provide a complete version of the proof. Please see '[Complete Proof] Proficiency Boosts Efficiency.pdf'. 
+We also provide a more detailed version of the proof. Please see '[Detailed Proof] Proficiency Boosts Efficiency.pdf'. 
 
 In the following, we introduce all programs and folders. 
 
