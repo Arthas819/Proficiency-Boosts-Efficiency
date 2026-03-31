@@ -1,12 +1,12 @@
-This library is an open source project for our submitted paper ***Proficiency Boosts Efficiency: Extended Johnson's Rules for Flow Shop Scheduling with Learning and Forgetting Effects*** , joint work with Prof. Yuli ZHANG and Prof. Zuo-Jun Max SHEN. 
+This library is an open source project for our submitted paper ***Proficiency Boosts Efficiency: Extended Johnson's Rules for Flow Shop Scheduling with Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
 
-The propsoed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
+The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
+
+We also provide a complete version of the proof. Please see '[Complete Proof] Proficiency Boosts Efficiency.pdf'. 
 
 In the following, we introduce all programs and folders. 
 
-
-
-## 1.Codes in src/main/java
+## 1. Codes in src/main/java
 
 ### (1) Main Programs 
 
