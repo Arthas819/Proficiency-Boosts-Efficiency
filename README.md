@@ -1,4 +1,4 @@
-This library is an open source project for our submitted paper ***Extended Johnson's Rules for Flow Shop Scheduling with Category-Dependent Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
+This library is an open-source project for our submitted paper ***Extended Johnson's Rules for Flow Shop Scheduling with Category-Dependent Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
 
 The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
 
@@ -12,22 +12,22 @@ In the following, we introduce all programs and folders.
 
 | Files                      | Descriptions                                                 |
 | -------------------------- | ------------------------------------------------------------ |
-| **BJInstance.java**        | Solve all instances of the F2/Prmu,CLFEs/C_{max} problem in the folder **Two-Machine-Instances** by the proposed Bathc-wise Johnson's (BJ) rule. |
-| **MBJInstance.java**       | Solve all instances of the Fm/Prmu,CLFEs/C_{max} problem in the folder **M-Machine-Instances** by the proposed M-machine Bathc-wise Johnson's (MBJ) algorithm. |
-| **BJInstance_Delta.java**  | Solve all instances of the F2/Prmu,CLFEs/C_{max} problem in the folders **Two-Machine-Instances** and **Two-Machine-LargeInstances** by the BJ rule under different value of the forgetting factor δ. |
-| **MBJInstance_Delta.java** | Solve all instances of the Fm/Prmu,CLFEs/C_{max} problem in the folders **M-Machine-Instances** and **M-Machine-LargeInstances** by the MBJ algorithm under different value of the forgetting factor δ. |
+| **BJInstance.java**        | Solve all instances of the F2/Prmu,CLFEs/C_{max} problem in the folder **Two-Machine-Instances** by the proposed Batch-wise Johnson's (BJ) rule. |
+| **MBJInstance.java**       | Solve all instances of the Fm/Prmu,CLFEs/C_{max} problem in the folder **M-Machine-Instances** by the proposed M-machine Batch-wise Johnson's (MBJ) algorithm. |
+| **BJInstance_Delta.java**  | Solve all instances of the F2/Prmu,CLFEs/C_{max} problem in the folders **Two-Machine-Instances** and **Two-Machine-LargeInstances** by the BJ rule under different values of the forgetting factor δ. |
+| **MBJInstance_Delta.java** | Solve all instances of the Fm/Prmu,CLFEs/C_{max} problem in the folders **M-Machine-Instances** and **M-Machine-LargeInstances** by the MBJ algorithm under different values of the forgetting factor δ. |
 
 ### (2) Other Files
 
 | Files                | Descriptions                                      |
 | -------------------- | ------------------------------------------------- |
-| **Calculation.java** | Static methods used by BJ rule and MBJ algorithm. |
+| **Calculation.java** | Static methods used by the BJ rule and MBJ algorithm. |
 
 
 
 ## 2.Datasets in src/main
 
-Note that all instance files are named by "J-C-M-I", where J is the number of jobs, C is the number of categories, M is the number of machines / workstations / operations, and I is the identification number of this instance. 
+Note that all instance files are named by "J-C-M-I", where J is the number of jobs, C is the number of categories, M is the number of machines/workstations/operations, and I is the identification number of this instance. 
 
 | Folders                        | Descriptions                                                 |
 | ------------------------------ | ------------------------------------------------------------ |
