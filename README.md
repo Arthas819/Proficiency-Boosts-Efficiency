@@ -1,4 +1,4 @@
-This library is an open source project for our submitted paper ***Proficiency Boosts Efficiency: Extended Johnson's Rules for Flow Shop Scheduling with Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
+This library is an open source project for our submitted paper ***Extended Johnson's Rules for Flow Shop Scheduling with Category-Dependent Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
 
 The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
 
