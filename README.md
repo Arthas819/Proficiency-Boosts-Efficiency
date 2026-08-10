@@ -1,8 +1,16 @@
 This library is an open-source project for our submitted paper ***Extended Johnson's Rules for Flow Shop Scheduling with Category-Dependent Learning and Forgetting Effects***, joint work with Prof. Yuli ZHANG. 
 
-The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
+Citation: 
+```latex
+@article{zhang2026extended,
+  title={Extended Johnson's Rules for Flow Shop Scheduling with Category-Dependent Learning and Forgetting Effects},
+  author={Zhang, Fenglin and Zhang, Yuli},
+  journal={Available at SSRN 7209658},
+  year={2026}
+}
+```
 
-We also provide a more detailed version of the proof. Please see '[Detailed Proof] Proficiency Boosts Efficiency.pdf'. 
+The proposed algorithms are coded in Java (JDK 22.0.1) and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11. 
 
 In the following, we introduce all programs and folders. 
 
