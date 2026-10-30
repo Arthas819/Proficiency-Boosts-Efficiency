@@ -15,7 +15,9 @@ We provide totally **3,200 instances** for the Fm/Prmu,CLFEs/C\_{max} problem.&#
 
 The proposed algorithms are coded in **Java (JDK 22.0.1)** and run on Intel(R) Core(TM) i9-13900HX (2.20 GHz) on Windows 11.
 
-We benchmark the proposed algorithms against one of the state-of-the-art commercial solvers **COPT (version 8.0.7) in Python 3.8**. One can apply for a COPT license at <https://copt.shanshu.ai/copt>.&#x20;
+We benchmark the proposed algorithms against one of the state-of-the-art commercial solvers **COPT (version 8.0.7) in Python 3.8**. One can apply for a COPT license at <https://copt.shanshu.ai/copt>.&#x20; 
+
+We used generative AI to assist in writing some of the code, and all generated code was carefully checked by the authors.
 
 In the following, we introduce the **code, data, and results** included in this project.
 
