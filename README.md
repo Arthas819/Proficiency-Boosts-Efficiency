@@ -29,7 +29,7 @@ In the following, we introduce the **code, data, and results** included in this 
 | **MBJInstance_comparison.java** | Solve all instances of the Fm/Prmu, CLFEs/C\_{max} problem in the folder **M-Machine-Instances** by the proposed M-machine Batch-wise Johnson's (MBJ) algorithm and benchmarks.                                                                                      |
 | **BJInstance_SA.java**          | Sensitivity analysis for all instances of the F2/Prmu,CLFEs/C\_{max} problem in the folders **Two-Machine-Instances** and **Two-Machine-LargeInstances** using the BJ rule, under different values of the learning parameters L and a, and the forgetting factor δ. |
 | **MBJInstance_SA.java**         | Sensitivity analysis for all instances of the Fm/Prmu,CLFEs/C\_{max} problem in the folders **M-Machine-Instances** and **M-Machine-LargeInstances** using the MBJ algorithm under different values of the learning parameters L and a, and the forgetting factor δ. |
-| **BJ_CLFE.java**                | Analyses of the **impact of CLFEs on the scheduling decisions** of the F2/Prmu, CLFEs/C\_{max} problem.                                                                                                                                                                |
+| **BJ_CLFE.java**                | Analyses of the impact of CLFEs on the scheduling decisions of the F2/Prmu, CLFEs/C\_{max} problem using instances in **Two-Machine-Instances**.                                                                                                                       |
 
 ### (2) Other Files
 
