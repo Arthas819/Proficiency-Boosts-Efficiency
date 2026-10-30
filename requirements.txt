@@ -1,4 +1,0 @@
-Java Version
-JDK 22.0.1
-
-All Maven dependencies are listed in the file pom.xml. 
