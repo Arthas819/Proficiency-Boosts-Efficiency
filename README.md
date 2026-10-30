@@ -29,7 +29,7 @@ In the following, we introduce the **code, data, and results** included in this 
 | **MBJInstance_comparison.java** | Solve all instances of the Fm/Prmu, CLFEs/C\_{max} problem in the folder **M-Machine-Instances** by the proposed M-machine Batch-wise Johnson's (MBJ) algorithm and benchmarks.                                                                                      |
 | **BJInstance_SA.java**          | Sensitivity analysis for all instances of the F2/Prmu,CLFEs/C\_{max} problem in the folders **Two-Machine-Instances** and **Two-Machine-LargeInstances** using the BJ rule, under different values of the learning parameters L and a, and the forgetting factor δ. |
 | **MBJInstance_SA.java**         | Sensitivity analysis for all instances of the Fm/Prmu,CLFEs/C\_{max} problem in the folders **M-Machine-Instances** and **M-Machine-LargeInstances** using the MBJ algorithm under different values of the learning parameters L and a, and the forgetting factor δ. |
-| **BJ_CLFE.java**                | Analyses of the impact of CLFEs on the scheduling decisions of the F2/Prmu, CLFEs/C\_{max} problem.                                                                                                                                                                 |
+| **BJ_CLFE.java**                | Analyses of the **impact of CLFEs on the scheduling decisions** of the F2/Prmu, CLFEs/C\_{max} problem.                                                                                                                                                                |
 
 ### (2) Other Files
 
@@ -71,7 +71,7 @@ Each instance file records the processing times (PTs) of all operations. For exa
 
 | Folders                             | Descriptions                                                                                                                                      |
 | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **\[1] Result_COPT**                | The computational results of COPT for small-scale instances, output by **BJ_Rule_copt.py** and \*\*MBJ_Algo_copt.py. \*\*                         |
-| **\[2] Result_Gaps**                | The results of our algorithms and benchmarks on all instances, output by \*\*BJInstance_comparison.java **and** MBJInstance_comparison.java. \*\* |
-| **\[3] Result_F2_CLFE**             | Results of the impact of CLFEs on scheduling decisions of the F2/Prmu, CLFEs/C\_{max} problem, output by \*\*BJ_CLFE.java. \*\*                   |
-| **\[4] Result_SensitivityAnalysis** | Results of sensitivity analysis for our algorithms, output by **BJInstance_SA.java** and \*\*MBJInstance_SA.java. \*\*                            |
+| **\[1] Result_COPT**                | The computational results of COPT for small-scale instances, output by **BJ_Rule_copt.py** and **MBJ_Algo_copt.py**.                              |
+| **\[2] Result_Gaps**                | The results of our algorithms and benchmarks on all instances, output by **BJInstance_comparison.java** and **MBJInstance_comparison.java**.      |
+| **\[3] Result_F2_CLFE**             | Results of the impact of CLFEs on scheduling decisions of the F2/Prmu, CLFEs/C\_{max} problem, output by **BJ_CLFE.java**.                        |
+| **\[4] Result_SensitivityAnalysis** | Results of sensitivity analysis for our algorithms, output by **BJInstance_SA.java** and **MBJInstance_SA.java**.                                 |
