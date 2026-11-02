@@ -54,9 +54,9 @@ Note that all instance files are named "J-C-M-I", where J is the number of jobs,
 
 | Folders                        | Descriptions                                                                                                                                    |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Two-Machine-Instances**      | 240 small-scale instances for the F2/Prmu,CLFEs/C\_{max} problem with J \in {5, 10, 15, 20}, C \in {2, 3, 4, 5, 6}, M\=2.                       |
+| **Two-Machine-Instances**      | 240 small-scale instances for the F2/Prmu,CLFEs/C\_{max} problem with J \in {5, 10, 15, 20}, C \in {2, 3, 4, 5, 6}, M\=2. Note that when J = 5 or J = 10, C \in {2, 3, 4}; when J = 15, C \in {3, 4, 5}; when J = 20, C \in {4, 5, 6}.                       |
 | **Two-Machine-LargeInstances** | 560 large-scale instances for the F2/Prmu,CLFEs/C\_{max} problem with J \in {40, 60, 80, 100}, C \in {4, 5, 6, 7, 8, 9, 10}, M\=2.              |
-| **M-Machine-Instances**        | 720 small-scale instances for the Fm/Prmu,CLFEs/C\_{max} problem with J \in {5, 10, 15, 20}, C \in {2, 3, 4, 5, 6}, M \in {3, 4, 5}.            |
+| **M-Machine-Instances**        | 720 small-scale instances for the Fm/Prmu,CLFEs/C\_{max} problem with J \in {5, 10, 15, 20}, C \in {2, 3, 4, 5, 6}, M \in {3, 4, 5}. Note that when J = 5 or J = 10, C \in {2, 3, 4}; when J = 15, C \in {3, 4, 5}; when J = 20, C \in {4, 5, 6}.             |
 | **M-Machine-LargeInstances**   | 1,680 Large-scale instances for the Fm/Prmu,CLFEs/C\_{max} problem with J \in {40, 60, 80, 100}, C \in {4, 5, 6, 7, 8, 9, 10}, M \in {3, 4, 5}. |
 
 Each instance file records the processing times (PTs) of all operations. For example, in the instance "**Two-Machine-Instances/5-2-2-1.txt**":
